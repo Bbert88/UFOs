@@ -37,22 +37,35 @@
     </div>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-md-3">
+            <div class="col-md-2">
                 <form class="bg-dark">
-                    <p>Filter Search</p>
+                    <p class="head-filt">Filter Search</p>
                 
                     <ul class="list-group bg-dark">
                         <li class="list-group-item bg-dark">
-                            <label for="date">Enter Date</label>
+                            <label for="date">Enter a Date</label>
                             <input type="text" placeholder="1/10/2010" id="datetime" />
                         </li>
-                        <li class="list-group-item bg-dark" style="font-family: inherit; font-size: 1rem;">
-                            <button id="filter-btn" type="button" class="btn btn-dark">Filter Table</button>
+                        <li class="list-group-item bg-dark">
+                            <label for="city">Enter a City</label>
+                            <input type="text" placeholder="fresno" id="city" />
+                        </li>
+                        <li class="list-group-item bg-dark">
+                            <label for="state">Enter a State</label>
+                            <input type="text" placeholder="ca" id="state" />
+                        </li>
+                        <li class="list-group-item bg-dark">
+                            <label for="country">Enter a Country</label>
+                            <input type="text" placeholder="us" id="country" />
+                        </li>
+                        <li class="list-group-item bg-dark">
+                            <label for="shape">Enter a Shape</label>
+                            <input type="text" placeholder="circle" id="shape" />
                         </li>
                     </ul>
                 </form> 
             </div>
-            <div class="col-md-9">
+            <div class="col-md-10">
                 <table class="table table-striped">
                     <thead>
                       <tr>
