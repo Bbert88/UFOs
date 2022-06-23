@@ -1,2 +1,9 @@
-# UFOs
-Creation of a dynamic web application using JavaScript, HTML, CSS
+# UFO Sightings Dynamic Web Application Using JavaScript, HTML, CSS
+
+![jumbotron](./images/jumbotron.png)
+
+## Overview
+
+## Results
+
+## Summary
